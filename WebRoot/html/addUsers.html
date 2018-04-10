@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加用户</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrapFileInput/css/fileinput.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+
+        /*顶部*/
+        
+        .carousel {
+            height: 550px;
+            margin-bottom: 60px;
+        }
+
+        .carousel .item {
+            height: 550px;
+            background-color: #000;
+        }
+
+        .carousel .item img {
+            width: 100%;
+        }
+
+        .carousel-caption {
+            z-index: 10;
+        }
+
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        .listtop{
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-top: 20px;
+            background-image: url("images/standard16.jpeg");
+            
+        }
+
+        .listword{
+            text-align: center;
+            font-size: 150%;
+            font-weight:700;
+            color: #F0F0F0 ;
+        }
+
+        .list{
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+  
+        }
+
+        .buttun{
+          text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+<!--顶部-->
+<div id="ad-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/standard18.jpeg" >
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>生物识别云平台</h1>
+                    <h1>BIOLOGICAL AUTHENTICATION SYSTEM</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="feature-divider">
+
+<div class="container main">
+  <!--用户列表栏-->
+  <div class="row listtop">
+      <p class="listword">用户列表</p>
+  </div>
+  
+  <!--用户列表-->
+  <div class="row list">
+    <table class="table table-striped table-bordered table-hover" >
+      <thead>
+        <tr>
+          <th>选择</th>
+          <th>序号</th>
+          <th>姓名</th>
+          <th>性别</th>
+          <th>年龄</th>
+          <!--th>身份证号码</th></tr-->
+          <th>电话号码</th>
+          <th>身份证号码</th></tr>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>1</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <!--th><input type="text" class="form-control" placeholder="请输入身份证号码"></th-->
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>2</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>3</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>4</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>5</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>6</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>7</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>8</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>9</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>10</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>11</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>12</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>13</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>14</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>15</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>16</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>17</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>18</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>19</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name=""></th>
+          <th>20</th>
+          <th><input type="text" class="form-control" placeholder="请输入姓名"></th>
+          <th><label>男</label> <input type="checkbox" name="male"> <label>女</label> <input type="checkbox" name="female"></th>
+          <th><input type="text" class="form-control" placeholder="请输入年龄"></th>
+          <th><input type="text" class="form-control" placeholder="请输入电话号码"></th>
+          <th><input type="text" class="form-control" placeholder="请输入身份证号码"></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row buttun">
+    <div class="col-md-6">
+      <p><a class="btn btn-info btn-lg" href="#" role="button">确认用户信息</a></p>
+    </div>
+    <div class="col-md-6">
+      <p><a class="btn btn-success btn-lg" href="#" role="button">录入多模态信息</a></p>
+    </div>
+  </div>
+
+</div>
+
+<hr class="feature-divider">
+
+<!--底部-->
+<footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+</footer>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrapFileInput/js/fileinput.min.js"></script>
+<script type="text/javascript" src="bootstrapFileInput/js/fileinput_locale_zh.js"></script>
+<script type="text/javascript" src="bootstrapFileInput/js/locale/zh.js"></script>
+</body>
+</html>

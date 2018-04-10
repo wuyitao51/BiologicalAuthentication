@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchUsersServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.searchUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userAuthentication</servlet-name>
+    <servlet-class>com.sicau.servlet.userAuthentication</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addUsersServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.addUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doEnterServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.doEnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doUpdateServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.doUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAuthenInfoServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.doAuthenInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changeWeightServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.changeWeightServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAddAuthenInfoServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.doAddAuthenInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteUsersServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.deleteUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginByFaceServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.loginByFaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginByFingerServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.loginByFingerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>recogByFaceServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.recogByFaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>recogByFingerServlet</servlet-name>
+    <servlet-class>com.sicau.servlet.recogByFingerServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchUsersServlet</servlet-name>
+    <url-pattern>/searchUsers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userAuthentication</servlet-name>
+    <url-pattern>/authentication</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addUsersServlet</servlet-name>
+    <url-pattern>/addUsers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doEnterServlet</servlet-name>
+    <url-pattern>/doEnter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doUpdateServlet</servlet-name>
+    <url-pattern>/doUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAuthenInfoServlet</servlet-name>
+    <url-pattern>/doAuthenInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeWeightServlet</servlet-name>
+    <url-pattern>/changeWeight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAddAuthenInfoServlet</servlet-name>
+    <url-pattern>/doAddAuthenInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteUsersServlet</servlet-name>
+    <url-pattern>/deleteUsers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginByFaceServlet</servlet-name>
+    <url-pattern>/loginByFace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginByFingerServlet</servlet-name>
+    <url-pattern>/loginByFinger</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>recogByFaceServlet</servlet-name>
+    <url-pattern>/recogByFace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>recogByFingerServlet</servlet-name>
+    <url-pattern>/recogByFinger</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

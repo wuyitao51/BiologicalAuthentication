@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="BioAuthen"
+  id="myeclipse.1513144324805"
+  context-root="/BioAuthen"
+  j2ee-spec="5.0"
+  archive="BioAuthen.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
